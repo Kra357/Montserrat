@@ -1,3 +1,4 @@
+/* Оформление */
 body {
   font-family: "Montserrat";
   width: 1280px;
@@ -13,6 +14,16 @@ section {
   position: relative;
 }
 
+#round {
+  position: absolute;
+  top: 179px;
+  right: 340px;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  border: 3px dashed #c0c0c0;
+}
+
 /* Class */
 
 #one {
@@ -23,18 +34,9 @@ section {
   height: 1723px;
 }
 
-#round {
-  position: absolute;
-  top: 179px;
-  right: 340px;
-  width: 120px;
-  height: 120px;
-  border-radius: 100px;
-  border: 3px dashed #c0c0c0;
-}
-#lang {
-  width: 1280px;
-}
+/* Конец классов */
+
+/* 1 фрейм */
 
 #one {
   display: flex;
@@ -67,7 +69,7 @@ section {
   font-style: italic;
   position: absolute;
   left: 35px;
-  top: -20px;
+  top: -15px;
 }
 
 #grot {
@@ -76,23 +78,34 @@ section {
   font-style: italic;
   position: absolute;
   left: 1096px;
-  top: -20px;
+  top: -15px;
 }
 #sovr {
   font-size: 36px;
   font-weight: 400;
   position: absolute;
   left: 478px;
-  top: 437px;
+  top: 710px;
 }
 
 #yniv {
   font-size: 36px;
   font-weight: 400;
   position: absolute;
-  left: 459px;
-  top: 237px;
+  left: 453px;
+  top: 763px;
 }
 
+/* 2 фрейм */
+
 #img-2 {
+  width: 1280px;
+  height: 1723px;
+  position: absolute;
+  top: -20px;
+}
+
+#fist {
+  display: flex;
+  justify-content: center;
 }
