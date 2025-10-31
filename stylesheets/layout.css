@@ -46,6 +46,10 @@ section {
   height: 740px;
 }
 
+#mapp {
+  height: 1165px;
+}
+
 /* Конец секций */
 
 /* 1 фрейм */
@@ -368,4 +372,163 @@ section {
   font-style: italic;
   left: 471px;
   top: 210px;
+}
+
+/* 7 фрейм */
+#mapp {
+  display: flex;
+  justify-content: center;
+}
+
+#support {
+  position: absolute;
+  font-size: 61px;
+  font-weight: 600;
+  left: 36.06px;
+}
+
+#more {
+  position: absolute;
+  font-size: 61px;
+  font-weight: 600;
+  left: 575.06px;
+}
+
+#n-7 {
+  position: absolute;
+  font-size: 61px;
+  font-weight: 600;
+  left: 848.06px;
+}
+
+#lang {
+  position: absolute;
+  font-size: 61px;
+  font-weight: 600;
+  left: 1006.06px;
+}
+
+#langmap {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#Su {
+  position: absolute;
+  left: 234px;
+  top: 227px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#Ru {
+  position: absolute;
+  left: 909.06px;
+  top: 260px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#Eng {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 600;
+  left: 106px;
+  top: 917px;
+}
+#Vit {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 600;
+  left: 814px;
+  top: 1033px;
+}
+
+/* 8 фрейм */
+
+#langi {
+  display: flex;
+  justify-content: center;
+}
+
+#russ {
+  position: absolute;
+  left: 40px;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+#r {
+  width: 720px;
+  top: 100px;
+}
+
+#rad {
+  font-weight: 600;
+}
+
+#engg {
+  position: absolute;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: right;
+  left: 603px;
+  top: 370px;
+}
+
+#e {
+  width: 637px;
+  top: -10px;
+}
+#engrad {
+  font-weight: 600;
+}
+
+#finn {
+  position: absolute;
+  font-size: 36px;
+  font-weight: 400;
+  left: 40px;
+  top: 750px;
+}
+
+#finnr {
+  width: 675px;
+}
+
+#finrad {
+  font-weight: 600;
+}
+
+#Ve {
+  position: absolute;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: right;
+  left: 603px;
+  top: 1050px;
+}
+
+#Vep {
+  width: 637px;
+}
+
+#Vir {
+  font-weight: 600;
+}
+
+/* 8 фрейм */
+
+#me {
+  display: flex;
+  justify-content: center;
+}
+
+#names {
+  position: absolute;
+  font-size: 36px;
+  text-align: right;
+  font-weight: 600;
+  left: 913px;
+  top: 100px;
 }
