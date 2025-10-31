@@ -38,7 +38,7 @@ section {
 }
 
 #headihg {
-  height: 208px;
+  height: 150px;
 }
 
 #techical-drawing {
@@ -290,8 +290,9 @@ section {
 /* 4 фрейм */
 #headihg h1 {
   font-size: 61px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
+  top: ;
 }
 
 /*5 фрейм */
