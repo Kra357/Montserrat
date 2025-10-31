@@ -24,17 +24,29 @@ section {
   border: 3px dashed #c0c0c0;
 }
 
-/* Class */
+/* Секции */
 
 #one {
   height: 931px;
 }
 
 #fist {
-  height: 1723px;
+  height: 1650px;
 }
 
-/* Конец классов */
+#numbers {
+  height: 941px;
+}
+
+#headihg {
+  height: 208px;
+}
+
+#techical-drawing {
+  height: 740px;
+}
+
+/* Конец секций */
 
 /* 1 фрейм */
 
@@ -99,13 +111,261 @@ section {
 /* 2 фрейм */
 
 #img-2 {
-  width: 1280px;
-  height: 1723px;
+  width: 327.84px;
+  height: 384.95px;
   position: absolute;
-  top: -20px;
+  top: 240px;
+  left: 801px;
+}
+
+#img-3 {
+  width: 269px;
+  height: 403.5px;
+  position: absolute;
+  top: 1010.5px;
+  left: 166px;
 }
 
 #fist {
   display: flex;
   justify-content: center;
+}
+
+#base {
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  left: 40.19px;
+  top: 133px;
+}
+
+#nobase {
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  left: 660.19px;
+  top: 899px;
+}
+
+#onetasks {
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 224px;
+  width: 580px;
+  height: 429px;
+}
+
+#twotasks {
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 660px;
+  top: 990px;
+  width: 580px;
+  height: 580px;
+}
+
+#sp-1 {
+  font-weight: 500;
+}
+
+#answer-1 {
+  font-weight: 500;
+}
+
+#pii {
+  font-weight: 600;
+}
+
+#year {
+  font-weight: 500;
+}
+
+#gfonts {
+  font-weight: 500;
+}
+
+#answer-2 {
+  font-weight: 500;
+}
+
+#d-one {
+  font-size: 46.67px;
+  font-style: italic;
+  font-weight: 500;
+  left: 879.17px;
+  top: 510.51px;
+  position: absolute;
+}
+
+#one-13 {
+  font-size: 64.56px;
+  font-style: italic;
+  font-weight: 500;
+  left: 266.88px;
+  top: 1110.9px;
+  position: absolute;
+}
+
+#start {
+  top: -45px;
+  position: absolute;
+}
+
+/*  3 фрейм */
+
+#star {
+  font-size: 128px;
+  font-weight: 500;
+  left: 40px;
+  top: -50px;
+  position: absolute;
+}
+
+#pi {
+  font-size: 200px;
+  font-weight: 500;
+  left: 126px;
+  top: -160px;
+  position: absolute;
+}
+
+#sign {
+  font-size: 128px;
+  font-weight: 500;
+  left: 302px;
+  top: -20px;
+  position: absolute;
+}
+
+#number {
+  position: absolute;
+  left: 40px;
+  top: 130px;
+  height: 692px;
+  width: 1175px;
+}
+
+#n-1 {
+  font-size: 128px;
+  font-weight: 400;
+}
+
+#n-2 {
+  font-size: 96px;
+  font-weight: 500;
+}
+
+#start-pi {
+  font-size: 128px;
+  font-weight: 500;
+}
+
+#regular-1 {
+  font-size: 96px;
+  font-weight: 400;
+}
+
+#number {
+  font-size: 96px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#thin {
+  font-size: 96px;
+  font-weight: 300;
+}
+
+#extra {
+  font-size: 96px;
+  font-weight: 200;
+}
+
+/* 4 фрейм */
+#headihg h1 {
+  font-size: 61px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/*5 фрейм */
+#img-4 {
+  position: absolute;
+  left: 83px;
+  top: 65.99px;
+}
+
+#img-5 {
+  position: absolute;
+  left: 700px;
+  top: 65.99px;
+}
+
+#img4-1 h1 {
+  position: absolute;
+  font-size: 605.7px;
+  font-weight: 400;
+  left: 149px;
+  top: -503px;
+}
+
+#degree-1 {
+  position: absolute;
+  font-size: 37.82px;
+  font-weight: 300;
+  left: 562.05px;
+  transform: rotate(35.42deg);
+  top: 427px;
+}
+
+#img5-1 h1 {
+  position: absolute;
+  font-size: 605.7px;
+  font-weight: 400;
+  left: 796px;
+  top: -494px;
+}
+
+#degree-2 {
+  position: absolute;
+  font-size: 37.82px;
+  font-weight: 300;
+  left: 724px;
+  top: 235px;
+}
+
+/* 6 фрейм */
+#symbols {
+  display: flex;
+  justify-content: center;
+}
+
+#diametr {
+  position: absolute;
+  font-size: 96px;
+  font-weight: 400;
+  font-style: italic;
+  left: 100px;
+  top: 30px;
+}
+
+#formula {
+  position: absolute;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: italic;
+  left: 159px;
+  top: 110px;
+}
+
+#radius {
+  position: absolute;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: italic;
+  left: 471px;
+  top: 210px;
 }
