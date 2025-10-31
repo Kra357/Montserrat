@@ -9,8 +9,7 @@ body {
 
 section {
   display: block;
-  border: dashed;
-  border-color: rgb(238, 255, 0);
+
   position: relative;
 }
 
